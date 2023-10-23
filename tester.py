@@ -5,7 +5,6 @@ import os
 import threading
 import re
 import requests
-import api
 
 
 from cryptography.fernet import Fernet
