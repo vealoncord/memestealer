@@ -5,6 +5,7 @@ import os
 import threading
 import re
 import requests
+import screenlocker
 
 
 from cryptography.fernet import Fernet
